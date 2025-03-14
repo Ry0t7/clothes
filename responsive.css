@@ -1,0 +1,135 @@
+/* タブレットサイズ */
+@media screen and (max-width:896px){ 
+    .hero{
+        height: 600px;
+    }
+    .hero-movie {
+        height: auto;
+    } 
+    .person-container{
+        width: 90%;
+    }
+    .clothes-inner{
+        width: 90%;
+        padding: 14rem 0;
+    }
+    .clothes-inner-pic{
+        width: 220px;
+        height: 180px;
+    }
+    .pic2{
+        top: 110px;
+    }
+    .swiper{
+        width: 90%;
+    }
+    .about-inner-item{
+        width: 70%;
+    }
+    .about-inner-item-head{
+        font-size: 1.5rem;
+    }
+}
+
+/* スマホサイズ */
+@media screen and (max-width:480px){
+    .hero{
+        height: 100vh;
+    }
+    .hero-movie{
+        display: none;
+    }
+    .hero-movie-sp{
+        display: block;
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
+    }
+    .person{
+        padding: 2rem 0;
+    }
+    .person-head{
+        padding-bottom: .5rem;
+    }
+    .person-inner{
+        display: block;
+    }
+    .person-inner-pic{
+        width: 100%;
+        height: 350px;
+        object-fit: cover;
+        padding: .5rem 2rem;
+    }
+    .clothes-container{
+        padding: 2rem 0;
+    }
+    .clothes-head{
+        padding-bottom: 1rem;
+    }
+    .clothes-inner{
+        padding: 15rem 0;
+    }
+    .clothes-inner-pic{
+        width: 150px;
+        height: 150px;
+    }
+    .pic1 {
+        top: 0;
+        left: 10px;
+    }
+    .pic2{
+        top: 240px;
+    }
+    .pic3{
+        right: 10px;
+    }
+    .pic4{
+        left: 10px;
+    }
+    .pic5{
+        bottom: 0;
+        right: 10px;
+    }
+    .swiper-box{
+        padding: 2rem;
+    }
+    .about-inner-item{
+        width: 100%;
+    }
+    .swiper-head{
+        padding-bottom: 1rem;
+    }
+    .about-inner-item-head{
+        font-size: 1.3rem;
+    }
+    .about-item-inner{
+        padding: 1rem;
+    }
+    .about-inner-pic{
+        height: 200px;
+        margin-bottom: 0.7rem;
+    }
+    .about-inner-item-bottom{
+        height:120px;
+        padding:.5rem;
+    }
+    .about-inner-item-content{
+        font-size: .6rem;
+    }
+    .swiper-button-prev {
+        left: var(--swiper-navigation-sides-offset,5px);
+    }
+    
+    .swiper-button-next {
+        right: var(--swiper-navigation-sides-offset,5px);
+    }
+    .footer-container{
+        padding: 2rem 0;
+    }
+    .footer-list-btn{
+        font-size: .9rem;
+    }
+    .copywrite{
+        font-size: 0.6rem;
+    }
+}
